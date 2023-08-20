@@ -4,12 +4,13 @@ Publication::Publication()
 {
     name = "Empty";
     author = "Empty";
-    year = 0;
+    year = 1;
     info = "Empty";
 }
 
 Publication::Publication(string n, string a, int y, string i)
 {
+    if (y <= 0) throw (new EditionYearException(y));
     name = n;
     author = a;
     year = y;
@@ -58,6 +59,9 @@ string Publication::get_info() const
 
 void Publication::show() const
 {
+    if (name.size() == 0) throw (new BookException("name is empty!"));
+    else if (author.size() == 0) throw (new BookException("author is empty!"));
+
     cout << "Name: " << name << endl;
     cout << "Author: " << author << endl;
     cout << "Year: " << year << endl;

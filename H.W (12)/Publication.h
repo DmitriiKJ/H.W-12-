@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "PublicationException.h"
 using namespace std;
 
 class Publication

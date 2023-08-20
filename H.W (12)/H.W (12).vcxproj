@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,6 +144,7 @@
     <ClInclude Include="Library.h" />
     <ClInclude Include="Magazine.h" />
     <ClInclude Include="Publication.h" />
+    <ClInclude Include="PublicationException.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Book.cpp" />
