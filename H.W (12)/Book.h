@@ -13,7 +13,7 @@ public:
 	void set_res(string r);
 	string get_res()const;
 
-	void show()const;
+	virtual void show()const override;
 	virtual string type()const override;
 };
 

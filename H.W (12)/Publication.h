@@ -25,6 +25,6 @@ public:
 	int get_year()const;
 	string get_info()const;
 
-	void show()const;
+	virtual void show()const;
 	virtual string type()const;
 };

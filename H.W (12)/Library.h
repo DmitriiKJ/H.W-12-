@@ -13,9 +13,9 @@ public:
 	void set_name(string n);
 	string get_name()const;
 
-	void add(Publication*);
+	void add(Publication* a);
 	void del(string n);
-	void find()const;
+	void find(int i)const;
 	void show()const;
 
 	~Library();

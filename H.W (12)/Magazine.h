@@ -14,7 +14,7 @@ public:
 	void add_ar(string a);
 	vector<string> get_articles()const;
 
-	void show()const;
+	virtual void show()const override;
 	virtual string type()const override;
 };
 
