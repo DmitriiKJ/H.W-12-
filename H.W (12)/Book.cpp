@@ -25,3 +25,8 @@ void Book::show() const
     Publication::show();
     cout << "Res: " << res << endl;
 }
+
+string Book::type() const
+{
+    return "Book";
+}

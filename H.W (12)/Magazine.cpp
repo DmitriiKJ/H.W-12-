@@ -27,3 +27,8 @@ void Magazine::show() const
         cout << articles[i] << endl;
     }
 }
+
+string Magazine::type() const
+{
+    return "Magazine";
+}

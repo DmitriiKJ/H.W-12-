@@ -63,3 +63,8 @@ void Publication::show() const
     cout << "Year: " << year << endl;
     cout << "Info" << info << endl;
 }
+
+string Publication::type() const
+{
+    return "Publication";
+}

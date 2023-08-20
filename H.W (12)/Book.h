@@ -14,5 +14,6 @@ public:
 	string get_res()const;
 
 	void show()const;
+	virtual string type()const override;
 };
 

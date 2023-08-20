@@ -15,5 +15,6 @@ public:
 	vector<string> get_articles()const;
 
 	void show()const;
+	virtual string type()const override;
 };
 

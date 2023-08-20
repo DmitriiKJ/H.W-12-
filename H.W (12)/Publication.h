@@ -26,4 +26,5 @@ public:
 	string get_info()const;
 
 	void show()const;
+	virtual string type()const;
 };
