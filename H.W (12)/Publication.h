@@ -5,6 +5,7 @@ using namespace std;
 
 class Publication
 {
+protected:
 	string name;
 	string author;
 	int year;
