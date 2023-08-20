@@ -5,6 +5,11 @@ Library::Library()
     name = "Empty";
 }
 
+Library::Library(string n)
+{
+    name = n;
+}
+
 void Library::set_name(string n)
 {
     name = n;
@@ -84,7 +89,14 @@ void Library::show() const
 {
     for (int i = 0; i < arr.size(); i++)
     {
-        arr[i]->show();
+        try
+        {
+            arr[i]->show();
+        }
+        catch (PublicationException* n)
+        {
+            n->Message();
+        }
         cout << "========================" << endl;
     }
 }

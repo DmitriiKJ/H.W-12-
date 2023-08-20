@@ -9,6 +9,7 @@ class Library
 
 public:
 	Library();
+	Library(string n);
 
 	void set_name(string n);
 	string get_name()const;

@@ -151,6 +151,7 @@
     <ClCompile Include="Library.cpp" />
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="Publication.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
